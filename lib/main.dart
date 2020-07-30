@@ -40,7 +40,8 @@ class _MyApp extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        //visualDensity: VisualDensity.adaptivePlatformDensity,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        fontFamily: 'Berlin Sans FB'
       ),
       routes: <String, WidgetBuilder> {
         'Control': (BuildContext cxt) => SecondScreen(), },
@@ -52,7 +53,7 @@ class _MyApp extends State<MyApp> {
           duration: Duration(milliseconds: 2000),
           child: _alterWidget
               ? LoginPage()
-              : Image.asset('assets/splash.jpg',fit: BoxFit.fill,))
+              : Image.asset('assets/splash.jpeg',fit: BoxFit.fill,))
     );
   }
 }
