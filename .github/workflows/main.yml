@@ -23,5 +23,5 @@ jobs:
     
     - uses: actions/upload-artifact@v1
       with:
-        name: heutagogy.apk
+        name: astra.apk
         path: build/app/outputs/flutter-apk/app-release.apk
