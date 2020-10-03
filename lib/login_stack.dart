@@ -4,14 +4,11 @@ import 'package:astra/data.dart';
 import './second_screen.dart';
 
 
-//class _logindata {
-//  String name="";
-//  String password="";
-//}
+
 
 class LoginStack extends StatelessWidget {
   final Size size;
-//  _logindata _data= new _logindata();
+
   LoginStack({@required this.size});
 
   @override
